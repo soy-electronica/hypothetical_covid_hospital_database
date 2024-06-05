@@ -1,5 +1,5 @@
 # hypothetical_covid_hospital_database
-The implementation for the following C program was a final project for an electrical &amp; computer engineering undergraduate class in intermediate programming at the Univeristy of Maryland College Park. The project involves a hypothetical hospital and patient database. 
+The implementation for the following C program was a final project for an electrical &amp; computer course. The project involves a hypothetical hospital and patient database. 
 
 
 The following code takes in input file with either one of the following patient's information: (1) the date a patient checked into the hospital, (2) the date a patient checked out of the hospital, or (3) the deceased date of a patient. The date format in the input file is MM/DD/YY.  The input file also contains a given patient ID (PID) number in addition to another patient’s ID number associated. The additional PID is the who infected that given patient. If the patient does not know who infected them, the additional patient ID will be set as 0. The output file of the code is the user's input query to the database. The information in the input file for each patient is: <date> <PID1> <status> <PID2>. The "date" is the date in which the patient was given some given "status": checked in, checked out, or deceased.
